@@ -15,7 +15,7 @@ function aufgabe1() {
 /**
  * 2) Gebe die Laenge des Arrays aus.
  */
-function aufgabe2() {
+function aufgabe2() {sfasfasfasf
     console.debug("Aufgabe 2 ==========================");
 
     let helden = ["Spider-Man", "Batman", "Superman"]
