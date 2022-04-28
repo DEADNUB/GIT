@@ -18,7 +18,7 @@ function aufgabe2() {
 /**
  * 3) Erstelle die Variablen
  */
-//ToDo: füge ab hier Deinen Code ein
+
 
 /**
  * 4) Gebe den Variablen Werte
@@ -48,10 +48,7 @@ function aufgabe5() {
   let amleben = true;
 
 
-  console.debug(name)
-  console.debug(alter)
-  console.debug(groesseInMeter)
-  console.debug(amLeben)
+  console.debug(name, alter, größe, amleben);
 }
 
 /**
