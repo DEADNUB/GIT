@@ -9,7 +9,9 @@ function aufgabe1() {
     console.debug("Aufgabe 1 ==========================");
 
     //ToDo: füge ab hier Deinen Code ein
-    console.debug(laender)
+
+    let länder = ["Deutschladn", "Deutschland", "Deutschland", "Deutschland", "Deutschland"];
+    console.debug(länder)
 }
 
 /**
@@ -18,10 +20,11 @@ function aufgabe1() {
 function aufgabe2() {
     console.debug("Aufgabe 2 ==========================");
 
-    let helden = ["Spider-Man", "Batman", "Superman"]
-
     //ToDo: füge ab hier Deinen Code in der console.debug ein
-    console.debug("Länge des Arrays", )
+
+    let helden = ["Deathstroke", "Deadpool", "Deathshot"];
+
+    console.debug("Deadstroke", "Deadpool", "Deathshot");
 }
 
 /**
@@ -33,6 +36,10 @@ function aufgabe3() {
     let willkommen = ["Hallo", "Tschuess", "Mittag", "Planet", "Welt!"]
 
     //ToDo: füge ab hier Deinen Code ein
+    let willkomen = ["Ich", "habe", "keine", "Lust", "mehr",]
+
+    console.debug["Ich", "habe", "keine", "lust", "mehr!"];
+
 }
 
 /**
@@ -41,48 +48,52 @@ function aufgabe3() {
 function aufgabe4() {
     console.debug("Aufgabe 4 ==========================")
 
-    let warenkorb = ["Milch", "Eier", "Wurst"]
     //ToDo: füge ab hier Deinen Code ein
 
-    console.debug(warenkorb)
+    let warenkorb = ["Wasser", "Vollkornbrott", "Wurst"]
+    console.debug ["Wasser", "Vollkornbrot", "Geflühgelwurst"];
+
+    /**
+     * 5) Loesche x, y und z.
+     */
+    function aufgabe5() {
+
+
+        console.debug("Aufgabe 5 ==========================");
+
+        //ToDo: füge ab hier Deinen Code ein
+
+        let FuckYou = ["Fickt", "euch", "alle", "ins", "Knie"];
+
+        console.debug(FuckYou)
+    }
+
+    /**
+     * 6) Fuelle das Array mit Daten.
+     */
+    function aufgabe6() {
+        console.debug("Aufgabe 6 ==========================");
+
+        //ToDo: füge ab hier in das Array und die console.debugs Deinen Code ein
+
+        let name = "Hasan abas"
+        let größe = 1.72
+        let alter = 30
+        let amleben = true
+        console.debug(name, größe, alter, amleben)
+    }
+
+    /**
+     * Hauptfunktion, in der die Aufgaben aufgerufen werden
+     */
+    function main() {
+        aufgabe1()
+        aufgabe2()
+        aufgabe3()
+        aufgabe4()
+        aufgabe5()
+        aufgabe6()
+    }
+
+    main()
 }
-
-/**
- * 5) Loesche x, y und z.
- */
-function aufgabe5() {
-    console.debug("Aufgabe 5 ==========================");
-
-    let buchstaben = ["a", "b", "x", "y", "z", "c", "d"]
-    //ToDo: füge ab hier Deinen Code ein
-
-    console.debug(buchstaben)
-}
-
-/**
- * 6) Fuelle das Array mit Daten.
- */
-function aufgabe6() {
-    console.debug("Aufgabe 6 ==========================");
-
-    //ToDo: füge ab hier in das Array und die console.debugs Deinen Code ein
-    let developer = []
-    console.debug("Vorname: ", )
-    console.debug("Nachname: ", )
-    console.debug("Alter: ", )
-    console.debug("Groesse: ", )
-    console.debug("Aufgabe erledigt: ", )
-}
-
-/**
- * Hauptfunktion, in der die Aufgaben aufgerufen werden
- */
-function main() {
-    aufgabe1()
-    aufgabe2()
-    aufgabe3()
-    aufgabe4()
-    aufgabe5()
-    aufgabe6()
-}
-main()
