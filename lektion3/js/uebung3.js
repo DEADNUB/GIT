@@ -8,21 +8,24 @@
 function aufgabe1() {
   console.debug("Aufgabe 1 ==========================");
 
-  //ToDo: füge ab hier Deinen Code ein
 
-  console.debug(pizza)
+  let reis = {}
+  art: "langkorn",
+  zusatz:"Geribene Äpfel", "Zwiebel"
+  magich: true
+  console.debug(reis)
+
 }
-
 /**
  * 2) Rufe keys, value und entries auf.
  */
 function aufgabe2() {
   console.debug("Aufgabe 2 ==========================");
 
-  let ghibli = {
-    name: "Studio Ghibli",
-    gruendung: 1985,
-    medium: "Anime"
+  let selfmade = {
+    name: "Deine Mutter",
+    gruendung: 1992,
+    medium: "Rare"
   }
 
   //ToDo: füge ab hier in den debugs Deinen Code ein
